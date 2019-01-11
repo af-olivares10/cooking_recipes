@@ -2,10 +2,9 @@
 	"ImportPath": "github.com/af-olivares10/cooking_recipes_api",
 	"GoVersion": "go1.11",
 	"GodepVersion": "v80",
-	"heroku": {
-    "install" : [ "./..." ],
-    "goVersion": "go1.11"
-  },
+	"Packages": [
+		"./..."
+	],
 	"Deps": [
 		{
 			"ImportPath": "github.com/gorilla/mux",
