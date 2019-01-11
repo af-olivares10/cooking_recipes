@@ -18,10 +18,12 @@ The app is deployed in the following URL: https://recipesolivares.herokuapp.com/
 
 ## Deployment
 
-**prerequisites:**
+**Prerequisites:**
 * Install Golang and set $GOPATH/bin to your $Path
 * Install godep
 * Set environment variables (DBHOST,DBPORT,DBNAME,DBUSER,DBPASS,PORT)
+
+**Steps:**
 
 * Download the repository and run on the root 
   ```
