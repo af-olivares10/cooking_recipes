@@ -74,7 +74,7 @@ func main(){
   r.PathPrefix("/").Handler(buildHandler)
   fmt.Println("Server running!")
 
-  log.Fatal(http.ListenAndServe(":8081",r))
+  log.Fatal(http.ListenAndServe(":"+os.Getenv("PORT"),r))
 }
 func dbConfig() map[string]string {
     conf := make(map[string]string)
