@@ -1,0 +1,22 @@
+{
+	"ImportPath": "github.com/af-olivares10/cooking_recipes_api",
+	"GoVersion": "go1.11",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.6.2-18-gef912dd",
+			"Rev": "ef912dd76ebe9d9848c6e0fd80eaebccc9a11631"
+		},
+		{
+			"ImportPath": "github.com/lib/pq",
+			"Comment": "v1.0.0-6-g9eb73ef",
+			"Rev": "9eb73efc1fcc404148b56765b0d3f61d9a5ef8ee"
+		},
+		{
+			"ImportPath": "github.com/lib/pq/oid",
+			"Comment": "v1.0.0-6-g9eb73ef",
+			"Rev": "9eb73efc1fcc404148b56765b0d3f61d9a5ef8ee"
+		}
+	]
+}
