@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/af-olivares10/cooking_recipes_api",
-	"GoVersion": "go1.11",
+	"GoVersion": "go1.6.2",
 	"GodepVersion": "v80",
 	"Deps": [
 		{
